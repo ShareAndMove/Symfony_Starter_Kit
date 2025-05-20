@@ -1,0 +1,6 @@
+sams_documentation_controllers:
+    resource:
+        path: '@SamsDocumentationBundle/src/Controller'
+        namespace: Sams\DocumentationBundle\Controller
+    type: attribute
+    prefix: sams/documentation

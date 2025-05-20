@@ -1,0 +1,2 @@
+sams_maintenance:
+    maintenance: '%env(SAMS_MAINTENANCE)%'
