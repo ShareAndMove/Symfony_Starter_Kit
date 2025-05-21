@@ -59,6 +59,7 @@
     },
     "require-dev": {
         "doctrine/doctrine-fixtures-bundle": "^4.1",
+        "friendsofphp/php-cs-fixer": "^3.75",
         "roave/security-advisories": "dev-latest",
         "symfony/debug-bundle": "7.2.*",
         "symfony/stopwatch": "7.2.*",
