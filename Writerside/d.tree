@@ -4,7 +4,7 @@
 
 <instance-profile id="d"
                  name="Documentation"
-                 start-page="starter-topic.md">
-
-    <toc-element topic="starter-topic.md"/>
+                 start-page="how-to-use-starter-kit.md">
+    <toc-element topic="how-to-use-starter-kit.md"/>
+    <toc-element topic="change-logs.md"/>
 </instance-profile>
