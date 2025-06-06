@@ -1,0 +1,52 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+*.php text
+*.twig text
+*.yml text
+*.yaml text
+*.xml text
+*.json text
+*.env text
+*.md text
+*.xlf text
+
+# === Frontend files ===
+*.js text
+*.ts text
+*.css text
+*.scss text
+*.sass text
+*.html text
+
+# === GitHub Linguist ===
+# Ignore certains fichiers générés ou de config pour les stats de langage
+/.idea/*               linguist-vendored
+/.vscode/*             linguist-vendored
+
+# === Binary files ===
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.webp      binary
+*.ico       binary
+*.pdf       binary
+*.woff      binary
+*.woff2     binary
+*.ttf       binary
+*.eot       binary
+*.mp4       binary
+*.mp3       binary
+*.mov       binary
+
+# === Misc ===
+*.lock      text
+*.bat       text
+*.sh        text eol=lf
+
+# Ignore archives (do not normalize)
+*.zip       binary
+*.gz        binary
+*.tar       binary
+*.rar       binary
